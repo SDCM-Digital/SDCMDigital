@@ -1,0 +1,56 @@
+[29-Nov-2017 21:23:37 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type PDOStatement as array in /home/sdcmdigital/public_html/clients/index.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/sdcmdigital/public_html/clients/index.php on line 37
+[29-Nov-2017 21:24:38 UTC] PHP Parse error:  syntax error, unexpected '~' in /home/sdcmdigital/public_html/clients/index.php on line 35
+[29-Nov-2017 21:25:11 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type PDOStatement as array in /home/sdcmdigital/public_html/clients/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/sdcmdigital/public_html/clients/index.php on line 38
+[29-Nov-2017 21:26:30 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type PDOStatement as array in /home/sdcmdigital/public_html/clients/index.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/sdcmdigital/public_html/clients/index.php on line 38
+[29-Nov-2017 21:28:38 UTC] PHP Notice:  Undefined index: subject in /home/sdcmdigital/public_html/clients/index.php on line 40
+[29-Nov-2017 21:28:38 UTC] PHP Notice:  Undefined index: date in /home/sdcmdigital/public_html/clients/index.php on line 41
+[29-Nov-2017 21:28:38 UTC] PHP Notice:  Undefined index: content in /home/sdcmdigital/public_html/clients/index.php on line 42
+[29-Nov-2017 21:33:47 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/sdcmdigital/public_html/clients/index.php on line 69
+[01-Dec-2017 04:30:15 UTC] PHP Notice:  Undefined variable: row in /home/sdcmdigital/public_html/clients/index.php on line 49
+[01-Dec-2017 04:30:15 UTC] PHP Notice:  Undefined variable: row in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:30:15 UTC] PHP Notice:  Undefined variable: row in /home/sdcmdigital/public_html/clients/index.php on line 52
+[01-Dec-2017 04:30:27 UTC] PHP Notice:  Undefined variable: row in /home/sdcmdigital/public_html/clients/index.php on line 49
+[01-Dec-2017 04:30:27 UTC] PHP Notice:  Undefined variable: row in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:30:27 UTC] PHP Notice:  Undefined variable: row in /home/sdcmdigital/public_html/clients/index.php on line 52
+[01-Dec-2017 04:31:02 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:31:05 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:31:07 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:31:07 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:31:09 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:31:10 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:31:10 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:31:12 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:31:12 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:31:12 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:31:12 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:31:38 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:32:34 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:32:36 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:32:38 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:32:48 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:32:48 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:34:43 UTC] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:36:37 UTC] PHP Warning:  date_timestamp_get() expects parameter 1 to be DateTimeInterface, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:36:38 UTC] PHP Warning:  date_timestamp_get() expects parameter 1 to be DateTimeInterface, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:36:39 UTC] PHP Warning:  date_timestamp_get() expects parameter 1 to be DateTimeInterface, string given in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:37:01 UTC] PHP Notice:  A non well formed numeric value encountered in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:37:02 UTC] PHP Notice:  A non well formed numeric value encountered in /home/sdcmdigital/public_html/clients/index.php on line 50
+[01-Dec-2017 04:37:05 UTC] PHP Notice:  A non well formed numeric value encountered in /home/sdcmdigital/public_html/clients/index.php on line 50
+[02-Dec-2017 05:09:55 UTC] PHP Notice:  Undefined index: email in /home/sdcmdigital/public_html/clients/index.php on line 27
+[02-Dec-2017 05:10:07 UTC] PHP Notice:  Undefined index: email in /home/sdcmdigital/public_html/clients/index.php on line 27
+[02-Dec-2017 05:20:09 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/sdcmdigital/public_html/clients/index.php on line 10
+[02-Dec-2017 05:20:11 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/sdcmdigital/public_html/clients/index.php on line 10
+[02-Dec-2017 05:20:12 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/sdcmdigital/public_html/clients/index.php on line 10
+[02-Dec-2017 05:21:03 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/sdcmdigital/public_html/clients/index.php on line 17
+[02-Dec-2017 05:21:16 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/sdcmdigital/public_html/clients/index.php on line 17
+[02-Dec-2017 05:21:19 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/sdcmdigital/public_html/clients/index.php on line 17
+[02-Dec-2017 05:21:33 UTC] PHP Notice:  Undefined index: HTTP_REFERER in /home/sdcmdigital/public_html/clients/index.php on line 17

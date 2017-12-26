@@ -1,0 +1,372 @@
+/* Initial Setup */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin: 0 0 100px;
+}
+
+/* Navigation */
+
+nav {
+  animation-delay: 1s;
+  background: rgba(20, 20, 20, 0.9);
+  font-family: Raleway;
+  font-weight: 300;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+}
+nav ul {
+  text-align: left;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0px 2px;
+  overflow: hidden;
+}
+nav li {
+  list-style-type: none;
+  margin: 0;
+  float: left;
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
+nav #navLinks li:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+nav li a {
+  text-decoration: none;
+  display: block;
+  color: #FFFFFF;
+  font-size: 23px;
+  display: block;
+  height: 50px;
+  padding: 0px 30px;
+  line-height: 50px;
+}
+#branding {
+  background: rgba(0, 0, 0, 0.2);
+  display: inline-block;
+}
+#branding li {
+  font-weight: 700;
+  color: #FFFFFF;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-size: 23px;
+  height: 50px;
+  display: block;
+  line-height: 50px;
+}
+#navLinks li a {
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
+#navLinks li:hover a {
+  color: #5e91ff;
+}
+.loginLink {
+  float: right;
+  text-align: right;
+  font-weight: 700;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.2) 50%);
+  background-size: 210% 100%;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
+.loginLink a {
+  color: #5e91ff;
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
+.loginLink:hover {
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+  background-position: bottom right;
+}
+.loginLink:hover a {
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+  background-position: bottom right;
+  color: #FFFFFF;
+}
+
+/* Page Header */
+
+.mainHeader {
+  height: 50vh;
+  background: url('../img/mainHeader.jpeg') no-repeat fixed center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(20, 20, 20, 0.9);
+  text-align: center;
+}
+.mainHeader br {
+  line-height: 15vh;
+}
+.mainHeader h1 {
+  color: #5e91ff;
+}
+.mainHeader p {
+  color: #FFFFFF;
+}
+
+/* Home Page Information Section */
+
+.information {
+  min-width: 100%;
+  text-align: center;
+}
+.information h1 {
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.information hr {
+  border: 0;
+  padding-top: 0;
+  margin-top: 0;
+  width: 30%;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.infoItem {
+  margin: 30px 25px;
+  padding: 15px;
+  width: 625px;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.75);
+  color: black;
+  text-align: center;
+  padding-top: 0;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.infoItem.single {
+  margin: 30px 20%;
+  width: auto;
+  display: block;
+}
+.infoItem h1 {
+  padding-top: 0;
+  margin-top: 0;
+  text-align: left;
+  display: block;
+  float: left;
+}
+.infoItem h2 {
+  text-align: right;
+  font-weight: 700i;
+  font-style: italic;
+}
+.infoItem div {
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0 -15px;
+  height: 50px;
+  padding: 15px;
+}
+.infoItem p {
+  padding-top: 15px;
+  color: #FFFFFF;
+  text-align: left;
+}
+.infoItem div.links {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0);
+  height: auto;
+  min-width: 100%;
+  text-align: center;
+}
+.infoItem a {
+  width: 135px;
+  height: 40px;
+  float: left;
+  margin: 0px 7.5px;
+  display: inline-block;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 0px;
+  color: #FFFFFF;
+}
+
+/* Footer */
+
+.footer {
+  bottom: 5px;
+  background: rgba(20, 20, 20, 0.9);
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.footer p {
+  display: inline-block;
+}
+.footer #copyright {
+  bottom: 5px;
+  color: #FFFFFF;
+  padding-left: 10px;
+}
+.footer #email {
+  bottom: 5px;
+  float: right;
+  right: 10px;
+  width: 300px;
+  text-align: right;
+}
+.footer #email a {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding-right: 10px;
+}
+
+/* Modal General */
+
+#modalCover {
+  min-width: 100%;
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  display: none;
+  position: fixed;
+  top: 0px;
+}
+
+/* Login Modal */
+
+.login {
+  width: 500px;
+  height: 400px;
+  display: none;
+  background: rgba(50, 50, 50, 0.9);
+  border: 1px solid rgba(87, 87, 87, 0.65);
+  position: fixed;
+  margin: 0px auto;
+  top: 150px;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 1);
+}
+.login .head {
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid rgba(87, 87, 87, 0.65);
+  background-color: rgba(150, 150, 150, 0.6);
+  margin: 0;
+  padding: 0;
+}
+.login .head h1 {
+  font-size: 26px;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0px 10px;
+  float: left;
+  color: #FFFFFF;
+}
+.login .head a {
+  text-decoration: none;
+}
+.login .head i {
+  font-size: 26px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0px 10px;
+  float: right;
+  color: #FFFFFF;
+}
+.login .head i:hover {
+  color: #5e91ff;
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
+.login form {
+  display: block;
+  width: 50%;
+  padding-top: 15px;
+  margin: 0px auto;
+}
+.login form .formInput {
+  width: 100%;
+  height: 30px;
+  font-size: 24px;
+  line-height: 30px;
+  margin: 10px auto;
+  text-align: left;
+  border: 0;
+  border-bottom: 1px solid rgba(67, 67, 67, 0.8);
+  background: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0.6);
+}
+input:focus {
+  outline: none;
+}
+.login .submit {
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+}
+.login .submit button {
+  background-color: rgba(150, 150, 150, 0.6);
+  width: 100%;
+  height: 40px;
+  font-size: 26px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #FFFFFF;
+  border: 0;
+  margin-top: 30%;
+}
+.login .submit button:hover {
+  color: #5e91ff;
+  background: rgba(67, 67, 67, 0.8);
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
+
+/* Client List */
+#ban, #unban {
+  background-color: rgba(206, 28, 37, 1.0);
+  border-color: rgba(153, 16, 23, 1.0);
+}
+
+#promote, #revoke {
+  background-color: rgba(41, 100, 196, 1.0);
+  border-color: rgba(28, 64, 122, 1.0);
+}
+
+#invoice {
+  background-color: rgba(211, 194, 40, 1.0);
+  border-color: rgba(160, 147, 27, 1.0);
+}
+
+#cInfo {
+  background-color: rgba(45, 175, 63, 1.0);
+  border-color: rgba(22, 102, 33, 1.0);
+}

@@ -1,0 +1,8 @@
+[01-Dec-2017 07:47:38 UTC] PHP Notice:  Undefined index: SERVER_NAME in /home/sdcmdigital/public_html/clients/public/php/login.php on line 8
+[01-Dec-2017 07:48:36 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/sdcmdigital/public_html/clients/public/php/login.php on line 27
+[01-Dec-2017 07:48:40 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/sdcmdigital/public_html/clients/public/php/login.php on line 27
+[01-Dec-2017 07:49:16 UTC] PHP Notice:  Undefined index: SERVER_NAME in /home/sdcmdigital/public_html/clients/public/php/login.php on line 8
+[01-Dec-2017 07:49:35 UTC] PHP Notice:  Undefined index: SERVER_NAME in /home/sdcmdigital/public_html/clients/public/php/login.php on line 8
+[01-Dec-2017 12:47:09 UTC] PHP Notice:  Undefined index: SERVER_NAME in /home/sdcmdigital/public_html/clients/public/php/login.php on line 8
+[02-Dec-2017 05:22:23 UTC] PHP Notice:  Undefined index: first in /home/sdcmdigital/public_html/clients/public/php/login.php on line 30
+[06-Dec-2017 22:04:59 UTC] PHP Notice:  Undefined index: first in /home/sdcmdigital/public_html/clients/public/php/login.php on line 30

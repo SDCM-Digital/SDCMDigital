@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="../fa/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/animate.css" type="text/css">
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300i,700" rel="stylesheet">
+    <title>Home | Sam & Caleb Digital</title>
+  </head>
+  <body>
+    <nav class="animated">
+      <ul id="branding">
+        <li>Sam & Caleb Digital</li>
+      </ul>
+      <ul id="navLinks">
+        <li><a href="../">HOME</a></li>
+        <li><a href="../portfolio">PORTFOLIO</a></li>
+        <li><a href="../services">SERVICES</a></li>
+        <li><a href="../contact">CONTACT</a></li>
+      </ul>
+      <ul class="loginLink">
+          <li><a href="https://clients.sdcmdigital.com/">Client Portal</a></li>
+      </ul>
+    </nav>
+
+    <div class="head">
+      <h1>
+        Sam & Caleb Digital
+        <p>Designs made to last.</p>
+      </h1>
+    </div>
+
+    <div class="services">
+      <h1>Service Options</h1>
+      <div class="service">
+        <h1>Starter</h1>
+        <div class="info-list">
+          <h2>$70</h2>
+          <p>5 HTML Pages</p>
+          <p>1 CSS Page</p>
+          <p>1 JavaScript Page</p>
+          <p>0 PHP Pages</p>
+          <p>No MySQL</p>
+        </div>
+        <a href="#starter" class="order">Order Now</a>
+      </div>
+      <div class="service">
+        <h1>Intermediate</h1>
+        <div class="info-list">
+          <h2>$160</h2>
+          <p>8 HTML Pages</p>
+          <p>2 CSS Pages</p>
+          <p>1 JavaScript Page</p>
+          <p>2 PHP Pages</p>
+          <p>MySQL</p>
+        </div>
+        <a href="#intermediate" class="order">Order Now</a>
+      </div>
+      <div class="service">
+        <h1>Business</h1>
+        <div class="info-list">
+          <h2>$230</h2>
+          <p>12 HTML Pages</p>
+          <p>4 CSS Pages</p>
+          <p>3 JavaScript Pages</p>
+          <p>5 PHP Pages</p>
+          <p>MySQL</p>
+        </div>
+        <a href="#business" class="order">Order Now</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p id="copyright">Copyright &copy; 2017 SDCMDigital</p>
+      <p id="email"><a href="mailto:admin@sdcmdigital.com">Email Us</a></p>
+    </div>
+
+    <div id="modalCover"></div>
+    <div id="orderItem">
+      <div class="modalBody">
+        <div class="modalHead">
+          <h1>Order - $<span id="cost">0.00</span></h1>
+          <a href="#" id="close"><i class="fa fa-close"></i></a>
+        </div>
+
+        <form method="post" action="./public/php/login.php">
+          <input type="email" name="email" class="formInput" placeholder="Contact email" autocomplete="off" required>
+          <select name="plan" id="plan">
+            <option value="select">-- Select Plan --</option>
+            <option value="starter">Starter</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="business">Business</option>
+          </select>
+
+          <div class="submit">
+            <button type="submit" class="formSubmit" name="submit">Confirm Order</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
