@@ -1,6 +1,7 @@
 <?php
   session_start();
   require_once("../public/php/configuration.php");
+  require_once("../public/php/banned.php");
   try {
     $conn = new PDO("mysql:host=$hostname;dbname=$database", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -33,7 +34,7 @@
         <?php if (!isset($_SESSION['email'])) { ?>
           <li><a href="#" id="lr">Login</a></li>
         <?php } else { ?>
-          <li><a href="./php/logout.php">Logout</a></li>
+          <li><a href="../public/php/logout.php">Logout</a></li>
         <?php } ?>
       </ul>
     </nav>

@@ -1,6 +1,7 @@
 <?php
   session_start();
   require_once("../../public/php/configuration.php");
+  require_once("../../public/php/banned.php");
   try {
     $conn = new PDO("mysql:host=$hostname;dbname=$database", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -58,9 +59,9 @@
 
               <div class="links">
                 <?php if ($row['isbanned'] == 'f') { ?>
-                  <a href="#" id="ban">Ban Client</a>
+                  <a href="../api/ban.php?pKey=WebDesign2k17SDCM&email=<?php echo $row['email']; ?>" id="ban">Ban Client</a>
                 <?php } else { ?>
-                  <a href="#" id="unban">Unban Client</a>
+                  <a href="../api/unban.php?pKey=WebDesign2k17SDCM&email=<?php echo $row['email']; ?>" id="unban">Unban Client</a>
                 <?php } ?>
 
                 <?php if ($row['isadmin'] == 'f') { ?>
